@@ -22,7 +22,6 @@ function sumRecursion(arr) {
 }
 
 function sumTheSimpleWay(arr) {
-  return _.reduce(arr, (memo, num) => (memo + num), 0);
 }
 const testArray = [0, 1, 2, 3, 4, 5, 6];
 console.log(sumFor(testArray));
